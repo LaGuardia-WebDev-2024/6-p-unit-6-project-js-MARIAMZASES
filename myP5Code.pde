@@ -1,7 +1,7 @@
 //🟢Setup Procedure - Runs Once to Set The Canvas
 void setup() {
     size(400, 400); 
-    background(255,255,255,100);
+    background(0,0,0);
 }
 
 
@@ -12,6 +12,32 @@ void draw(){
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
   
+//pacman
+fill(252, 216, 52)
+stroke(252,216,52)
+strokeWeight(5
+)
+ellipse(155,220,200,200)
+
+//mouth
+fill(0,0,0)
+stroke(0,0,0,0)
+strokeWeight(3)
+triangle(170,220,255,172,259,280);
+
+//eye
+fill(0,0,0)
+stroke(0,0,0)
+strokeWeight(4)
+ellipse(175,174,15,15);
+
+//dots
+fill(255,255,255);
+stroke(255,255,255)
+strokeWeight(10);
+rect(274,209,10,10);
+rect(329,210,10,10)
+
 
   
 
